@@ -1,0 +1,44 @@
+I.O.O.M ASSIGNMENT 1
+
+The zip file contains 10 files in total namely
+1.Addressclass.cpp
+2.Addressclass.hpp
+3.Facultyclass.cpp
+4.Facultyclass.hpp
+5.PersonClass.cpp
+6.PersonClass.hpp
+7.StudentClass.cpp
+8.StudentClass.hpp
+9.headers.hpp
+10.main.cpp
+
+- Addressclass.cpp and Addressclass.hpp:
+	the .hpp file contains the declarations related to Address class
+	the corresponding .cpp file contains the definitions and initialisations for Address class
+
+- PersonClass.cpp and PersonClass.hpp:
+	the .hpp file contains the declarations related to Person class
+	the corresponding .cpp file contains the definitions and initialisations for Person class and this class will be inherited by student class and faculty class
+This class contains name, address (object) , id etc to identify the person
+	
+
+- Facultyclass.cpp and Facultyclass.hpp
+	the .hpp file contains the declarations related to Faculty class
+	the corresponding .cpp file contains the definitions and initialisations for Faculty class which inherited the Person class
+
+- StudentClass.cpp and StudentClass.hpp:
+	the .hpp file contains the declarations related to Student class
+	the corresponding .cpp file contains the definitions and initialisations for Student class which inherited the Person class . It contains courses that the student has registered , grades, address etc
+
+- headers.hpp:
+	This file just includes important header files that are needed to be included in different files
+
+- main.cpp:
+	This is the main file and all the operations and work is done here like creating objects of classes and making relevant decisions
+
+
+Compile using the following code
+
+g++ Addressclass.cpp PersonClass.cpp StudentClass.cpp Facultyclass.cpp main.cpp -o sample
+
+I have included the executable named sample

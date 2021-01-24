@@ -1,0 +1,21 @@
+BT18CSE021 - UJJWAL SHARMA - BATCH 1
+
+This text file is in reference to Question 4
+Question 4 contains 3 files
+1. main.cpp
+	This file is the driver file and will have to handle(catch) the errors (exceptions)
+2. Complex.hpp
+	this file contains the declarations
+3. Complex.cpp
+	this file contains the definitions and will throw all the exceptions 
+
+
+
+
+
+Compile using the command : g++ *.cpp -o question4
+If this does not work I.e gives warning related to c++ 
+Then try clang++ -std=c++11 -stdlib=libc++ *.cpp -o question4
+
+
+Note - All The files compiled successfully and gave output in XCODE

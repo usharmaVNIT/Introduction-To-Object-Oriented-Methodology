@@ -1,0 +1,25 @@
+BT18CSE021 - UJJWAL SHARMA - BATCH 1
+
+This text file is in reference to Question 1
+Question 1 contains 3 files
+1. Main.cpp
+	This is the driver file . All output will be in this file
+2. Students.hpp
+	This file contain declarations . There are 2 classes 
+	1. Student -
+		this class contains data members and corresponding functions . Functionality of functions can be determined by their names but a full description is provided inside the corresponding .cpp file
+	2. StudentDatabase - 
+		this is basically a class to keep collection of students. Again full descriptions of unctions is in corresponding .cpp file 
+3. Students.hpp
+	This file contains the definitions of declarations in the .hpp file
+	2 operators are overloaded 
+	1. new - this will allocate memory in heap. Now initially the pointer is void* and we also need to allocate memory for members so we cast it into Student* by using the function reinterpret_cast<type>(expression) so now our compiler will interpret the void* ptr as Student * and then we allocate memory to the corresponding data members
+	2. delete - this again takes void ptr as argument but again we will cast the void* to Student * using reinterpret_cast<type>(expression) function as we have to first free the space inside the ptr (i.e student ptr) the we will free the ptr itself
+Due to the nature of this new we have to check if the user wises to make an object in the stack ( by not using new) . In that case we simply allocate memory for data members . Explained in the .cpp file itself
+Other definitions will be understood as you read the .cpp file along with comments
+
+Compile using the command : g++ *.cpp -o question1
+If this does not work I.e gives warning related to c++11 
+Then try clang++ -std=c++11 -stdlib=libc++ *.cpp -o question1
+
+Note - All The files compiled successfully and gave output in XCODE

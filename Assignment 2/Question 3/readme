@@ -1,0 +1,29 @@
+BT18CSE021 - UJJWAL SHARMA - BATCH 1
+
+This text file is in reference to Question 3
+Question 3 contains 3 files
+1. main.cpp
+	this is the driver class
+2. DoubleLinkedList.hpp
+	As all the classes will be template classes so all the definitions will be done in this file.  the compiler will not generate code for them unless they are specifically called
+	this file contains 3 classes
+	1. DoubleLinkedNode -
+		this class is the building block as the nodes are objects of this class . It has 2 friend classes Iterator and DoublyLinkedList so they can access its methods and members freely
+	2. Iterator -
+		this class is the iterator that will be used in iterating through the linked list
+		see the code (file ) for more details
+	3. DoublyLinkedList -
+		this file throws all the exceptions and has many functions
+			insert = insertAfter , insertBefore
+			delete = deleteNode
+			iterators = getIteratorHead , getIteratorTail 
+			print = printDLL , printDLLreverse
+			etc...
+		as you can see the name describes the functionalities. Read the code (file ) for further explanation
+3. DoubleLinkList.cpp
+ 	As all the classes will be template classes so all the definitions are in the header file .he compiler will not generate code for them unless they are specifically called
+
+Compile using the command : g++ *.cpp -o question3
+If this does not work I.e gives warning related to c++11 
+Then try clang++ -std=c++11 -stdlib=libc++ *.cpp -o question3
+

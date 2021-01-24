@@ -1,0 +1,6 @@
+02/12/2020 16:22:35 -->  Total Trucks : 2 , Total Collection : 1315.0
+02/12/2020 16:22:35 -->  Total Trucks : 4 , Total Collection : 2920.0
+02/12/2020 16:23:01 -->  Total Trucks : 2 , Total Collection : 1315.0
+02/12/2020 16:23:01 -->  Total Trucks : 4 , Total Collection : 2920.0
+02/12/2020 16:23:24 -->  Total Trucks : 2 , Total Collection : 1325.0
+02/12/2020 16:23:24 -->  Total Trucks : 4 , Total Collection : 3920.0

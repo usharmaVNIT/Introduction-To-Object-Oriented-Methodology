@@ -1,0 +1,18 @@
+BT18CSE021 - UJJWAL SHARMA - BATCH 1
+
+This text file is in reference to Question 2
+Question 2 contains 3 files
+
+1. main.cpp -
+	the main driver file
+2. Polar.hpp
+	Declarations regarding Polar class
+3. Polar.cpp
+	definitions of Polar Class
+Read the corresponding file for explanations .
+
+Compile using the command : g++ *.cpp -o question2
+If this does not work I.e gives warning related to c++11 
+Then try clang++ -std=c++11 -stdlib=libc++ *.cpp -o question2
+
+Note - All The files compiled successfully and gave output in XCODE
